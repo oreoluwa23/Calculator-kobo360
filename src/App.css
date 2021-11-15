@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  margin: 0px auto;
+  width: 400px;
+  border: 0.5rem outset pink;
+}
+
+.row-1, .row-2, .row-3, .row-4{
+display: flex;
+width: 100%;
+}
+
+.row-1 button{
+  padding: 42px;
+}
+
+.row-2 button, .row-3 button, .row-4 button{
+  padding: 45px;
+}
+
+
+
+button:hover{
+  cursor: pointer;
+}
+
+.row-zero .zero{
+  width: 50%;
+  padding: 45px;
+}
+
+.row-zero .under-zero{
+  padding: 45px;
+}
+.row-zero .under-zero-1{
+  padding: 45px;
+  background-color: rgb(250, 115, 4);
+}
+.display{
+  width: 100%;
+  background-color: blue;
+}
+.display input{
+  width: 300px;
+  padding: 50px;
+  font-size: large;
+  font-weight: 800;
+  line-height: 50%;
+}
+
+.operator{
+  background-color: rgb(250, 115, 4);
+}
